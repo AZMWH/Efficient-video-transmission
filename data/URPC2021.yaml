@@ -1,0 +1,11 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: E:\study\YJS_work\1\Improved-YOLOv5-main\URPC2021\train  # train images (relative to 'path') 128 images
+val: E:\study\YJS_work\1\Improved-YOLOv5-main\URPC2021\val  # val images (relative to 'path') 128 images
+test:  E:\study\YJS_work\1\Improved-YOLOv5-main\URPC2021\text  # test images (optional)
+
+# Classes
+nc: 4  # number of classes
+names: ['holothurian', 'echinus', 'scallop', 'starfish']  # class names
+
+#0海参、1海胆、2扇贝、3海星
